@@ -4,10 +4,10 @@ using namespace std;
 
 void rearrange(vector<int>&arr){
     //TWO-POINTER APPROACH->OPTIMAL APPROACH FOR THIS PROBLEM. 
-    int left=0;//start pointer lena hai
-    int right=arr.size()-1;//end pointer.
+    int left=0;//start pointer lena hai 0th index par 
+    int right=arr.size()-1;//end pointer. last index par.
     while(left<right){
-        //agar left side already negative haui to aage badho.
+        //agar left side already negative hai to aage badho.
         if(arr[left]<0){
             left++;
 
